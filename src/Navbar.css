@@ -6,50 +6,95 @@ div{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    caret-color: transparent;
 }
 .navbar-container{
     position: fixed;
+    width: 100%;
     top: 0;
     left: 0;
     right: 0;
     display: flex;
     height: 121px;
-    background-color: white;
     border: 1px solid black;
     flex-shrink: 0;
     align-items: center;
-    justify-content: space-around;
-    padding: 0px 59px 0px 59px;
+    justify-content: space-evenly;
 }
 .left-navbar-section{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-shrink: 0;
     background-color: pink;
     height: 30px;
-    width: 385px;
+    width: 400px;
+    margin-left: 20px;
     margin-top: 18px;
     border-radius: 12px;
     border: 1px solid var(--Color-Font, #000);
     background: var(--Color-Hover, #EA5C7E);
 }
 .right-navbar-section{
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-shrink: 0;
     margin-top: 18px;
     height: 30px;
-    width: 385px;
+    margin-right: 20px;
+    width: 400px;
     border-radius: 12px;
     border: 1px solid var(--Color-Font, #000);
     background: var(--Color-Hover, #EA5C7E);
 }
 
+.navbar-logo-container{
+}
 .navbar-logo{
     width: 116px;
 }
 .navbar-text{
     cursor: pointer;
+}
+.navbar-text:hover{
+}
+
+.nav-search-container{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    right: 0px;
+    top: -43px;
+}
+
+.nav-shop{
+    width: 27px;
+    cursor: pointer;
+}
+
+.nav-search{
+    width: 160px;
+    height: 23px;
+    margin-right: 12px;
+    border-radius: 13px;
+    border: 1px solid var(--Color-Font, #000);
+    background: var(--Color-Primary, #FFF);
+    flex-shrink: 0;
+    color: black;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-search::placeholder{
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.17);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
