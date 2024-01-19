@@ -25,6 +25,7 @@ div{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-shrink: 0;
     background-color: pink;
     height: 30px;
     width: 385px;
@@ -37,6 +38,7 @@ div{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-shrink: 0;
     margin-top: 18px;
     height: 30px;
     width: 385px;
