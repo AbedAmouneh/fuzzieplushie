@@ -1,5 +1,5 @@
 import React from "react";
-import './Navbar.css';
+import './css/Navbar.css';
 import logo from "./assets/Logo.svg";
 import shopCart from "./assets/shopCart.svg"
 
@@ -11,7 +11,7 @@ function Navbar() {
               <div className="left-navbar-section">
                   <div className="navbar-text">Home</div>
                   <div className="navbar-text">Shop</div>
-                  <div className="navbar-text">About us</div>
+                  <div className="navbar-text">About Us</div>
               </div>
               <div className="navbar-logo-container">
                   <img src={logo} className="navbar-logo" alt="logo" />

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import "./css/Footer.css";
 import InstaIcon from './assets/insta.svg';
 import EmailIcon from './assets/email.svg';
 import PhoneIcon from './assets/phone.svg';
