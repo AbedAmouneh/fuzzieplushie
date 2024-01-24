@@ -3,6 +3,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.footer-container li{
+    cursor: pointer;
+}
+
 .footer{
     display: flex;
     flex-direction: column;
@@ -33,6 +37,7 @@
 .footer-col3-info-title{
     font-size: 12px;
     font-weight: bold;
+    cursor: pointer;
 }
 .footer-col2, .footer-col1{
 
