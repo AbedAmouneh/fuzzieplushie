@@ -2,13 +2,15 @@
 body::-webkit-scrollbar {
     display: none;
 }
+
+*, html {
+margin: 0;
+padding: 0;    
+    }   
+
 body {
-    position: relative;
-    margin: 0;
-    width: 100%;
-    min-width: 320px;
-    min-height: 100vh;
-    height: 4000px;
+    margin: 110px 0 0 0;
+    padding: 0;
+    border: 3px solid blue;
     -ms-overflow-style: none;
-    scrollbar-width: none;
 }
