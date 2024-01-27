@@ -9,9 +9,10 @@ import AboutUs from './AboutUs'
 function App() {
   return (
     <>
-      <div>
+      <div className='app'>
+        <Navbar />
         <AboutUs />
-            <Footer />
+        <Footer />
       </div>
     </>
   )

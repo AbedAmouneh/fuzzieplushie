@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from './Navbar.jsx';
 import ourStory from './assets/ourStory.svg'
-import meetMahmoud from './assets/meet-mahmoud.svg'
+import vector from './assets/Vector.svg'
 import souritMahmoud from './assets/mahmoud-icon.svg'
 import Footer from "./Footer.jsx";
 import './css/AboutUs.css';
@@ -10,15 +10,20 @@ import './css/AboutUs.css';
 function AboutUs() {
     return (
         <>
-        <Navbar />
         <div className="homepage-container">
             <div className="homepage-upper-div">
                   <img src={ourStory} className="homepage-title" />
                 </div>
                 
-            <div className="meet-mahmoud-div">
-                <img src={meetMahmoud} className="meetMahmoud" />
-            </div>
+                <div className="meet-mahmoud-div">
+                    <div className="meet-mahmoud-vector-div">
+                        <img src={vector} className="meet-mahmoud-vector" />
+                    </div>
+                    <div className="meet-mahmoud-text">MEET MAHMOUD</div>
+                    <div className="meet-mahmoud-vector-div">
+                        <img src={vector} className="meet-mahmoud-vector" />
+                    </div>
+                </div>
             
                 <div className="story-details-div">
                     <div className="story-details">

@@ -16,12 +16,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    min-width: 0;
 }
 
 .story-details-div{
     display: flex;
     align-items: end;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 235px;
     padding-left: 59px;
     padding-right: 110px;
@@ -30,16 +31,90 @@
 .story-details{
     color: var(--Color-Primary, #FFF);
     font-size: 20px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
+    max-height: 230px;
     width: 512px;
 }
 .sourit-mahmoud{
     margin-bottom: -5px;
+    min-width: 0;
 }
 
 .meet-mahmoud-div{
+    display: flex;
+    align-items: center;
     margin-top: 73px;
-    margin-left: 59px;
+    margin-left: 21%;
 }
+.meet-mahmoud-text{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 10px 0 10px;
+    color: var(--Color-Hover, #EA5C7E);
+}
+.meet-mahmoud-vector-div{
+    margin: 0;
+    padding: 0;
+}
+
+.meet-mahmoud-vector{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 944px){
+  .story-details{
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 885px){
+  .story-details{
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 807px){
+  .story-details{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .homepage-container {
+    min-height: auto;
+  }
+  
+  .homepage-lower-div, .story-details-div {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .story-details {
+    width: auto;
+    font-size: 17px;
+  }
+
+  .story-details-div{
+    flex-direction: column;
+    align-items: center;
+  }
+  .meet-mahmoud-text {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+   .meet-mahmoud-div {
+    position: relative;
+    left: 0;
+    background-color: #3CADA7;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 675px){
+  .story-details{
+    font-size: 13px;
+  }
+}
+

@@ -78,3 +78,47 @@ ul{
     height: 21px;
     background: var(--Color-Hover, #EA5C7E);
 }
+
+
+
+@media screen and (max-width: 768px) {
+  .footer-container {
+    flex-wrap: wrap;
+  }
+  
+  .footer-col1, .footer-col2, .footer-col3 {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  
+  .footer-col1, .footer-col2 {
+    text-align: center;
+  }
+  
+  .footer-col3 {
+    align-items: center;
+  }
+  
+  .footer-col3-section {
+    margin-bottom: 10px;
+  }
+  
+  .footer-col3-icon {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  .footer-col3-info-title {
+    font-size: 10px;
+  }
+  
+  .footer-col3-subinfo {
+    font-size: 12px;
+  }
+  
+  .footer-logo-div {
+    margin-right: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
