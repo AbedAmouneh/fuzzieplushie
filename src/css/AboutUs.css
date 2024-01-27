@@ -1,0 +1,45 @@
+.homepage-container{
+    display: flex;
+
+    flex-direction: column;
+    min-height: 62dvh ;
+}
+
+.homepage-lower-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 73px;
+    padding-left: 59px;
+    background-color: #3CADA7;
+}
+.homepage-upper-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.story-details-div{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    height: 235px;
+    padding-left: 59px;
+    padding-right: 110px;
+    background-color: #3CADA7;
+}
+.story-details{
+    color: var(--Color-Primary, #FFF);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    width: 512px;
+}
+.sourit-mahmoud{
+    margin-bottom: -5px;
+}
+
+.meet-mahmoud-div{
+    margin-top: 73px;
+    margin-left: 59px;
+}
