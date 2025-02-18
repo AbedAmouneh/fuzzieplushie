@@ -4,15 +4,16 @@ import viteLogo from '/vite.svg'
 import './css/App.css'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import AboutUs from './AboutUs'
 
 function App() {
   return (
     <>
-      <div>
+      <div className='app'>
         <Navbar />
+        <AboutUs />
         <Footer />
       </div>
-
     </>
   )
 }
